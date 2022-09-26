@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+
+    text-decoration: underline;
+}
+nav{ 
+    display: flex;
+    justify-content: flex-end;
+}
+.header-nav  {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.header-img{
+    transition: 300ms;
+}
+.header-img{
+    padding: 0px 6px;
+}
+.header-img:hover {
+    border-radius: 10px;
+    /* background-color: rgb(135, 135, 135); */
+    box-shadow: 0 0 10px rgb(123, 123, 123);
+    cursor: pointer;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  }
+h1{
+    font-family: Product Sans;
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+.css-icon{
+    display: flex;
+    height: 20px;
+    line-height: 40px; 
+    align-items: center;
+    margin-top: 9px;
+}
+.search >input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+.search img:hover{
+    cursor: pointer;
+}
+.search:hover{
+    box-shadow: 0 0 10px gainsboro;
+}
+.mg-2{
+    margin-top: 20px;
+}
+.buttom p{
+
+    color: #4d5156;
+}
+.buttom a{
+    color: rgb(32, 32, 224);
+}
+.buttom button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 20px 10px;
+    color: #4d5156;
+    border: 1px solid #ffffff;
+}
+.buttom button:hover{
+    border: 1px solid #e0e0e0;
+    color: black;
+    box-shadow: 0 0 4px rgb(196, 195, 195);
+}
+
+/* footer{
+    margin-top: 285px;
+    background-color: #f2f2f2;
+} */
+footer {
+    background-color: #f2f2f2;
+    height: 90px;
+    line-height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    }
+.GioiThieumain{
+    display: flex;
+    justify-content: space-between;
+    /* height: 30px; */
+}
+
+.GioiThieu a {
+    color: #4d5156;
+    padding: 20px 10px;
+
+}
+.VietNam {
+    margin-left: 40px;
+}
